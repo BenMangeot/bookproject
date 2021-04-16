@@ -1,0 +1,42 @@
+::before ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    text-align: center;
+}
+
+.grille {
+    max-width: 1300;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.grille-item {
+    width: 300;
+    height: 200;
+
+}
+
+.button {
+    margin: 10px;
+}
+
+.success {
+    background-color: darkseagreen;
+}
+
+.failed {
+    background-color:lightcoral;
+}
+
+.modify {
+    background-color:rgb(224, 165, 0);
+}
